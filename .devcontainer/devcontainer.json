@@ -1,0 +1,14 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/audacioustux/devcontainers/bun:1": {}
+	},
+	"forwardPorts": [ 5173 ],
+	"codespaces": {
+		"repositories": {
+			"Lucassimao/fw-Lista-de-Tarefas": {
+				"permissions": "write-all"
+			}
+		}
+	}
+}
